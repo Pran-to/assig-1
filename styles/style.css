@@ -116,7 +116,7 @@
 /* About section  */
 .about {
     margin: 50px 0;
-    background-image: url("/image/pexels-pixabay-414660.jpg");
+    background-image: url("image/pexels-pixabay-414660.jpg");
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@
 
 /* subscribe styles */
 .subscribe {
-    background-image: url("/image/Rectangle 9.png");
+    background-image: url("image/Rectangle 9.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 350px;
