@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    
+}
+.header {
+    background: #E554731A ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: 1px solid black;
+    
+}
+.banner-content{
+    text-align: left;
+    margin: 0 150px;
+   
+    
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.banner-text{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn-primary{
+    background: #E55473;
+    color: #FFF;
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.banner-img{
+    margin-top: 20px;
+    margin-right: 150px;
+    height: 500px;
+}
