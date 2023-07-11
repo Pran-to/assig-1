@@ -135,7 +135,7 @@
     font-size: 15px;
     font-weight: 300px;
     margin: 20px 250px;
-   
+
 }
 
 /* !-- help and  Support -section style--> */
@@ -143,99 +143,141 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-  border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-margin: 70px 150px;
-padding: 100px 30px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 70px 150px;
+    padding: 100px 30px;
 }
-.help p{
+
+.help p {
     color: rgba(39, 39, 39, 0.80);
-font-size: 15px;
-font-weight: 500;
-line-height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
 }
 
 /* <!-- Hot Deal section --> */
 
-.deal-content{
+.deal-content {
     display: flex;
-    gap :20px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-     
+
 }
-.deal-content img{
+
+.deal-content img {
     padding: 30px;
 }
-.deal-title{
+
+.deal-title {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.deal-text{
+
+.deal-text {
     margin-bottom: 20px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
-   width: 600px;
+    width: 600px;
     font-weight: 300px;
 
 }
- /* Instagram styles */
- .instagram{
+
+/* Instagram styles */
+.instagram {
     margin: 30px 0;
     text-align: center;
- }
-.insta-title{
+}
+
+.insta-title {
     font-size: 40px;
     font-weight: 600;
 }
-.insta-text{
+
+.insta-text {
     margin-top: 15px;
     font-size: 12px;
     font-weight: 400;
 }
 
-.insta-imgs{
+.insta-imgs {
     display: flex;
-   gap: 10px;
-   margin: 0 150px;
-   
+    gap: 10px;
+    margin: 0 150px;
+
 }
-.insta-imgs img{
+
+.insta-imgs img {
     width: 250px;
-    
+
 }
 
 /* subscribe styles */
-.subscribe{
+.subscribe {
     background-image: url("/image/Rectangle 9.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height : 500px;
-    margin-top: 30px;
+    height: 350px;
+    margin-top: 80px;
     padding-top: 150px;
     text-align: center;
-    
+
 }
-.sub-title{
+
+.sub-title {
     font-size: 40px;
     margin-bottom: 10px;
     font-size: 600;
 }
-.sub-text{
+
+.sub-text {
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 20px;
 }
-.email-input{
+
+.email-input {
     border: none;
     border-radius: 5px;
     width: 500px;
-   height: 40px;
-   flex-shrink: 0;
-   margin-right: 10px;
-   padding-left: 15px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    padding-left: 15px;
 
+}
+
+/* footer styles */
+.footer {
+    background: black;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    padding-top: 150px;
+
+}
+
+.footer-title {
+
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.footer-text1 {
+    margin-bottom: 20px;
+    color: #FFF;
+
+
+}
+
+.footer-text2 {
+    font-size: 12px;
+    color: bisque;
 }
