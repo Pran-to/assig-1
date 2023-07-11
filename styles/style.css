@@ -2,6 +2,9 @@
     margin: 0;
     
 }
+
+/* header and banner  styles*/
+
 .header {
     background: #E554731A ;
     display: flex;
@@ -40,4 +43,21 @@
     margin-top: 20px;
     margin-right: 150px;
     height: 500px;
+}
+
+/* Our Featured section styles */
+
+.featured-content{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.featured-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.featured-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
 }
